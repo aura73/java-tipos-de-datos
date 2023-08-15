@@ -40,9 +40,11 @@ public class Calculadora {
                 System.out.println("el residuo de la division es" + residuo);
                 break;
             case '^' :
+
                 double resultado = Math.pow(numero1, numero2);
                 System.out.println("el resultado de la potencia es" + resultado);
                 break;
+
             default:
                 System.out.println("Operación inválida");
         }
